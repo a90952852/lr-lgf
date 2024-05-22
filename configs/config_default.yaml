@@ -1,0 +1,21 @@
+architecture:
+  num_classes: 10
+  num_mid: 400
+  seed: 0
+data:
+  dataset: MNIST_permuted
+  input_image_size: 28
+paths:
+  dir_exp: default_run
+  dir_src: /home/user//results/
+training:
+  alpha_high: 0
+  alpha_low: 0.001
+  batch_size: 128
+  lambda: 0.01
+  lambda_init: 0.0001
+  lr: 0.001
+  num_epochs: 10
+  num_tasks: 5
+  weight_decay: 0
+  rank: 1
